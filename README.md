@@ -42,6 +42,7 @@ Se enfoca en el uso de buenas prácticas, estructuras de datos, programación or
 ## .TAREA 1
 ### Instruccion 1
 ### Instruccion 2
+### Instruccion 3
 - Manejo de memoria
 
 ### 4️⃣ Entorno Linux
