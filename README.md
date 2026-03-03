@@ -39,6 +39,9 @@ Se enfoca en el uso de buenas prácticas, estructuras de datos, programación or
 - Listas
 - Pilas
 - Colas
+## .TAREA 1
+### Instruccion 1
+### Instruccion 2
 - Manejo de memoria
 
 ### 4️⃣ Entorno Linux
