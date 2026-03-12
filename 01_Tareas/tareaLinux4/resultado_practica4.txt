@@ -1,0 +1,37 @@
+Ejercicio 1: lineas con error
+error:memoria llena
+error: archivo no encontrado
+
+Ejercicio 2: lineas con info
+info: proceso iniciado
+info: proceso terminado
+
+Ejercicio 2: lineas con info
+info: proceso iniciado
+info: proceso terminado
+
+Ejercicio 3: numero de lineas en nombres.txt
+6 datos/nombres.txt
+
+Ejercicio 4: veces que aparece ana
+2
+
+Ejercicio 5: nombres ordenados
+ana
+ana
+juan
+juan
+maria
+pedro
+
+Ejercicio 6: archivos .txt encontrados
+./datos/log.txt
+./datos/nombres.txt
+./resultado_practica4.txt
+
+Ejercicio 7: cantidad de archivos .txt
+3
+
+Ejercicio 8: errores ordenados
+error: archivo no encontrado
+error:memoria llena
