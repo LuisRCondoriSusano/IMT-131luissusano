@@ -1,0 +1,33 @@
+  409  ls
+  410  rm reporte_sistema.txt 
+  411  ls
+  412  tree
+  413  grep "error" datos/accesos.log | wc -l >> reportes/reporte_sistema.txt
+  414  cat reportes/reporte_sistema.txt 
+  415  nano reportes/reporte_sistema.txt 
+  416  grep error datos/accesos.log | wc -l >> /reportes/ reporte_sistema.txt
+  417  grep error datos/accesos.log | wc -l >> reportes/reporte_sistema.txt
+  418  cat reportes/reporte_sistema.txt 
+  419  sort datos/usuarios.txt >> reportes/reporte_sistema.txt
+  420  cat reportes/reporte_sistema.txt 
+  421  touch scripts/analisis.sh
+  422  tree
+  423  nano scripts/analisis.sh 
+  424  chmod -x scripts/scripts.sh
+  425  chmod +x scripts/scripts.sh
+  426  cd scripts/
+  427  chmos +x analisis.sh 
+  428  chmod +x analisis.sh 
+  429  ./analisis.sh 
+  430  cd ..
+  431  ./analisis.sh
+  432  nano scripts/analisis.sh 
+  433  cd scripts/
+  434  ./analisis.sh 
+  435  nano analisis.sh 
+  436  ./analisis.sh 
+  437  cd ..
+  438  history 30 > comandos_practica.txt
+error: contrase~na incorrecta juan
+error: usuario no encontrado carlos
+error: contrase~na incorrecta ana

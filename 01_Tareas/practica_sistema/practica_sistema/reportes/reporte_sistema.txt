@@ -1,0 +1,9 @@
+numero de usuarios: 7 
+3
+ana
+ana
+juan
+juan
+lucas
+maria
+pedro
