@@ -1,0 +1,15 @@
+[drwxrwxr-x]  .
+├── [drwxrwxr-x]  datos
+│   ├── [-rw-r--r--]  errores.log
+│   └── [-rw-r--r--]  usuarios.txt
+├── [drwxrwxr-x]  docs
+│   ├── [-rw-rw-r--]  ayuda.txt
+│   └── [-r--r--r--]  notas_final.txt
+├── [drwxrwxr-x]  .info
+│   └── [-rwxrwxrwx]  consigna.txt
+├── [drwxrwxr-x]  salida
+│   ├── [-rw-rw-r--]  estructura.txt
+│   ├── [-rw-rw-r--]  permisos.txt
+│   └── [-rw-rw-r--]  resultado_examen.txt
+└── [drwxrwxr-x]  scripts
+    └── [-rwxr-xr-x]  script.sh
