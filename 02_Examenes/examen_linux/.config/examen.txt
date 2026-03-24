@@ -1,0 +1,180 @@
+EXAMEN PRÁCTICO DE LINUX
+Programación Superior
+
+INDICACIONES GENERALES
+
+1. Este examen debe resolverse únicamente desde la terminal.
+2. No se permite el uso de interfaces gráficas para explorar archivos.
+3. Se recomienda utilizar rutas relativas cuando sea posible.
+4. El examen evalúa gestión de archivos, permisos, procesamiento de texto y bash básico.
+5. La duración del examen es de 2 horas.
+
+--------------------------------------------------
+
+PARTE 1: EXPLORACIÓN
+
+1. Identifique los archivos disponibles y su contenido general.
+
+--------------------------------------------------
+
+PARTE 2: REORGANIZACIÓN DEL SISTEMA
+
+A partir de la estructura inicial entregada, el sistema debe quedar organizado de la siguiente manera:
+
+examen_linux/
+├── .config
+│   └── examen.txt
+├── datos
+│   ├── accesos.log
+│   ├── eventos.log
+│   └── usuarios.txt
+├── docs
+│   ├── ayuda.txt
+│   ├── borrador.txt
+│   ├── notas_finales.txt
+│   └── referencia.txt
+├── salida
+│   ├── estructura.txt
+│   ├── permisos.txt
+│   └── resultado_examen.txt
+└── scripts
+    ├── plantilla.sh
+    └── reporte.sh
+
+
+Para ello debe realizar las siguientes acciones:
+
+1. Crear los directorios:
+   datos
+   docs
+   scripts
+
+2. Mover y renombrar los siguientes archivos:
+   - entrada/usuarios.tmp       → datos/usuarios.txt
+   - entrada/accesos.log        → datos/accesos.log
+   - entrada/eventos.log        → datos/eventos.log
+   - entrada/notas_parciales.txt → docs/notas_finales.txt
+   - soporte/ayuda.txt          → docs/ayuda.txt
+   - documentos/referencia.txt  → docs/referencia.txt
+   - trabajo/plantilla.sh       → scripts/plantilla.sh
+
+3. Copiar el archivo:
+   - trabajo/borrador.txt       → docs/borrador.txt
+
+4. Eliminar el directorio:
+   - trabajo/
+
+--------------------------------------------------
+
+PARTE 3: PERMISOS
+
+Asignar los permisos solicitados utilizando notación octal:
+
+1. datos/usuarios.txt
+   - usuario: lectura y escritura
+   - grupo: lectura
+   - otros: sin permisos
+
+2. docs/notas_finales.txt
+   - usuario: lectura
+   - grupo: lectura
+   - otros: sin permisos
+
+3. scripts/plantilla.sh
+   - usuario: lectura, escritura y ejecución
+   - grupo: lectura y ejecución
+   - otros: sin permisos
+
+4. docs/ayuda.txt
+   - usuario: lectura y escritura
+   - grupo: lectura
+   - otros: lectura
+
+5. scripts/reporte.sh
+   - usuario: lectura, escritura y ejecución
+   - grupo: lectura y ejecución
+   - otros: lectura y ejecución
+
+--------------------------------------------------
+
+PARTE 4: PROCESAMIENTO DE INFORMACIÓN
+
+Utilizando comandos de Linux, determine lo siguiente:
+
+1. Número total de archivos dentro del directorio examen_linux
+2. Número total de archivos con extensión .txt
+3. Número total de archivos con extensión .log
+4. Número total de líneas que contienen la palabra "error" dentro de datos/accesos.log
+5. Número total de líneas que contienen la palabra "warning" dentro de datos/accesos.log
+6. Número total de líneas que contienen la palabra "error" dentro de datos/eventos.log
+7. Número total de usuarios registrados en datos/usuarios.txt
+8. Lista de usuarios ordenados alfabéticamente en una sola línea
+
+--------------------------------------------------
+
+PARTE 5: SCRIPT BASH
+
+Crear el archivo:
+
+scripts/reporte.sh
+
+Este script debe mostrar exactamente el siguiente formato:
+
+REPORTE DEL SISTEMA
+Usuarios registrados: X
+Errores en accesos.log: Y
+Warnings en accesos.log: Z
+Errores en eventos.log: W
+
+Donde:
+- X corresponde al número de usuarios registrados
+- Y corresponde al número de errores en datos/accesos.log
+- Z corresponde al número de warnings en datos/accesos.log
+- W corresponde al número de errores en datos/eventos.log
+
+El script debe funcionar correctamente al ejecutarse desde la terminal.
+
+--------------------------------------------------
+
+PARTE 6: ARCHIVOS DE SALIDA
+
+Dentro del directorio salida debe generar los siguientes archivos:
+
+1. resultado_examen.txt
+
+Debe contener exactamente el siguiente formato:
+
+TOTAL_ARCHIVOS=valor
+TOTAL_TXT=valor
+TOTAL_LOG=valor
+TOTAL_ERRORES_ACCESOS=valor
+TOTAL_WARNING_ACCESOS=valor
+TOTAL_ERRORES_EVENTOS=valor
+USUARIOS_REGISTRADOS=valor
+USUARIOS_ORDENADOS=valor
+
+2. estructura.txt
+
+Debe contener la estructura final completa del sistema.
+Se recomienda generarlo con:
+
+tree -a --noreport > salida/estructura.txt
+
+3. permisos.txt
+
+Debe contener la estructura final mostrando permisos.
+Se recomienda generarlo con:
+
+tree -p -a --noreport > salida/permisos.txt
+
+--------------------------------------------------
+
+ENTREGA
+
+Los archivos que se evaluarán son:
+
+- scripts/reporte.sh
+- salida/resultado_examen.txt
+- salida/estructura.txt
+- salida/permisos.txt
+

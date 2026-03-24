@@ -1,0 +1,3 @@
+La consigna principal no se encuentra en este directorio.
+Revise tambien archivos y carpetas ocultas.
+Utilice ls -a o ls -la para explorar mejor.

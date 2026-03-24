@@ -1,0 +1,7 @@
+TOTAL_ARCHIVOS=10
+TOTAL_TXT=7
+TOTAL_LOG=2
+TOTAL_ERRORES_ACCESOS=50
+TOTAL_WARNING_ACCESOS=50
+USUARIOS_REGISTRADOS=189
+USUARIOS_ORDENADOS=ana ana ana ana ana ana ana ana ana ana ana ana ana ana ana ana ana ana ana ana ana andres andres andres andres andres andres andres andres andres andres andres andres andres andres andres andres andres andres andres andres andres carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos carlos diego diego diego diego diego diego diego diego diego diego diego diego diego diego diego diego diego diego diego diego diego juan juan juan juan juan juan juan juan juan juan juan juan juan juan juan juan juan juan juan juan juan lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas lucas maria maria maria maria maria maria maria maria maria maria maria maria maria maria maria maria maria maria maria maria maria pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro pedro sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia sofia 

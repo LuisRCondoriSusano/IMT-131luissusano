@@ -1,0 +1,19 @@
+.
+├── .config
+│   └── examen.txt
+├── datos
+│   ├── accesos.log
+│   ├── eventos.log
+│   └── usuarios.txt
+├── docs
+│   ├── ayuda.txt
+│   ├── borrador.txt
+│   ├── notas_finales.txt
+│   └── referencia.txt
+├── salida
+│   ├── estructura.txt
+│   ├── permisos.txt
+│   └── resultado_examen.txt
+└── scripts
+    ├── plantilla.sh
+    └── reporte.sh

@@ -1,0 +1,6 @@
+Revisar accesos del sistema
+Verificar usuarios repetidos
+Ordenar la informacion antes de entregar
+Aplicar permisos de forma correcta
+Generar un reporte final
+Crear un script funcional

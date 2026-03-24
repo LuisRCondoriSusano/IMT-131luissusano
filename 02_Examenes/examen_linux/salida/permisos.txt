@@ -1,0 +1,19 @@
+[drwxrwxr-x]  .
+├── [drwxrwxr-x]  .config
+│   └── [-rw-rw-r--]  examen.txt
+├── [drwxrwxr-x]  datos
+│   ├── [-rw-rw-r--]  accesos.log
+│   ├── [-rw-rw-r--]  eventos.log
+│   └── [-rw-r-----]  usuarios.txt
+├── [drwxrwxr-x]  docs
+│   ├── [-rw-r--r--]  ayuda.txt
+│   ├── [-rwxrwxr-x]  borrador.txt
+│   ├── [-r--r-----]  notas_finales.txt
+│   └── [-rw-rw-r--]  referencia.txt
+├── [drwxrwxr-x]  salida
+│   ├── [-rw-rw-r--]  estructura.txt
+│   ├── [-rw-rw-r--]  permisos.txt
+│   └── [-rw-rw-r--]  resultado_examen.txt
+└── [drwxrwxr-x]  scripts
+    ├── [-rwxr-x---]  plantilla.sh
+    └── [-rwxr-xr-x]  reporte.sh
